@@ -17,6 +17,7 @@ resources:
   - tls/ca-ss-issuer.yaml
   - tls/nativeha-certificate.yaml
   - tls/mq-server-certificate.yaml
+  - tls/letsencrypt-chain.yaml
 
   - qm.yaml
 

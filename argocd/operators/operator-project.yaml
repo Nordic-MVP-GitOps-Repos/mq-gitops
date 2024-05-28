@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: AppProject
 metadata:
-  name: liberty-operators
+  name: operators
   namespace: openshift-gitops
   labels:
     app.kubernetes.io/managed-by: openshift-gitops

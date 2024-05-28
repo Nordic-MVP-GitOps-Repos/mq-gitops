@@ -1,8 +1,0 @@
-apiVersion: operators.coreos.com/v1
-kind: OperatorGroup
-metadata:
-  name: liberty-operator-og
-  namespace: liberty
-spec:
-  targetNamespaces:
-    - liberty

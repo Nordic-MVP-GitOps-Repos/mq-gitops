@@ -57,7 +57,7 @@ spec:
       - configMap:
           name: native-ha-qm-configmap
           items:
-            - tls.mqsc
+            - config.mqsc
     ini:
       - configMap:
           name: native-ha-qm-configmap

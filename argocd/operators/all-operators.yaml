@@ -24,7 +24,7 @@ spec:
       annotations:
         argocd.argoproj.io/sync-wave: "100"
     spec:
-      project: liberty-operators
+      project: operators
       source:
         path: 'components/{{name}}/operator'
       destination:

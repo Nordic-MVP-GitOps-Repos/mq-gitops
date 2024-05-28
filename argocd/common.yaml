@@ -9,7 +9,7 @@ metadata:
     argocd.argoproj.io/sync-wave: "50"
 spec:
   destination:
-    namespace: liberty
+    namespace: mq
     server: https://kubernetes.default.svc
   project: operands
   source:

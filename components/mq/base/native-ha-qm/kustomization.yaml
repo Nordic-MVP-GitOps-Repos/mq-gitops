@@ -19,3 +19,5 @@ resources:
   - tls/mq-server-certificate.yaml
 
   - qm.yaml
+
+  - mqwebuser-secret.yaml

@@ -7,11 +7,3 @@ spec:
   name: ibm-mq
   source: ibm-operator-catalog
   sourceNamespace: openshift-marketplace
-  config:
-    resources:
-      limits:
-        cpu: '1'
-        memory: 2Gi
-      requests:
-        cpu: 75m
-        memory: 128Mi

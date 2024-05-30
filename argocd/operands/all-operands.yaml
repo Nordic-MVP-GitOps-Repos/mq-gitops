@@ -11,6 +11,10 @@ spec:
         - name: mq
           namespace: mq
           sync-wave: "200"
+        - name: reloader
+          namespace: mq
+          sync-wave: "200"
+        
   template:
     metadata:
       name: '{{name}}'

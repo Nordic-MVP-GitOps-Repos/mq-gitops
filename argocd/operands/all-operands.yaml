@@ -21,7 +21,7 @@ spec:
     spec:
       project: operands
       source:
-        path: 'envs/odf/nonprod/{{name}}/'
+        path: 'envs/azure/nonprod/{{name}}/'
       destination:
         server: https://kubernetes.default.svc
         namespace: '{{namespace}}'

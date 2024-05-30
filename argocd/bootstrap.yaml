@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: bootstrap-liberty
+  name: bootstrap-mq
   namespace: openshift-gitops
 spec:
   destination:

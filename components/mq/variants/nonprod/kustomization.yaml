@@ -3,3 +3,5 @@ kind: Component
 
 patches:
   - path: license.yaml
+    target:
+      kind: QueueManager

@@ -5,7 +5,7 @@ metadata:
   annotations:
     certmanager.k8s.io/disable-auto-restart: "true"
     configmap.reloader.stakater.com/reload: "native-ha-qm-configmap"
-    secret.reloader.stakater.com/reload: "mq-nativeha-internal-tls-secret,mq-external-tls-secret"
+    secret.reloader.stakater.com/reload: "mq-nativeha-internal-tls-secret,mq-external-tls-secret,mq-server-certificate-secret"
 spec:
   # telemetry:
   #  tracing:

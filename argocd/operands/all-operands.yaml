@@ -11,12 +11,6 @@ spec:
         - name: mq
           namespace: mq
           sync-wave: "200"
-        - name: openshift-monitoring
-          namespace: openshift-monitoring
-          sync-wave: "200"
-        - name: openshift-logging
-          namespace: openshift-logging
-          sync-wave: "200"
   template:
     metadata:
       name: '{{name}}'

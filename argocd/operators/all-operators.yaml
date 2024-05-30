@@ -10,8 +10,6 @@ spec:
       elements:
         - name: mq
           namespace: mq
-        - name: openshift-logging
-          namespace: openshift-logging
         - name: openshift-cert-manager
           namespace: cert-manager-operator 
         - name: cert-utils

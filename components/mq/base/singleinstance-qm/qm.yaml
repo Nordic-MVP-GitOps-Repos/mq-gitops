@@ -59,7 +59,6 @@ spec:
         secret:
           secretName: letsencrypt-chain
           items:
-            - tls.crt
             - ca.crt
   web:
     enabled: true

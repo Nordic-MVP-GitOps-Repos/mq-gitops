@@ -4,4 +4,5 @@ kind: Kustomization
 resources: 
 
   - metrics
+  - singleinstance-qm
   - native-ha-qm

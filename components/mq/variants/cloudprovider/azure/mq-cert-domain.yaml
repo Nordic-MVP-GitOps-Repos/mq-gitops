@@ -6,3 +6,5 @@ spec:
   dnsNames:
     - 'native-ha-qm-ibm-mq-qm-mq.apps.g7pphpyh.eastus.aroapp.io'
     - 'native-ha-qm-ibm-mq-web-mq.apps.g7pphpyh.eastus.aroapp.io'
+    - 'single-instance-qm-ibm-mq-qm-mq.apps.g7pphpyh.eastus.aroapp.io'
+    - 'single-instance-qm-ibm-mq-web-mq.apps.g7pphpyh.eastus.aroapp.io'

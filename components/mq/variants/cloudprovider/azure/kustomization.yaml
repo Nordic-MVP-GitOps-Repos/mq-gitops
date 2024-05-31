@@ -3,4 +3,13 @@ kind: Component
 
 patches:
   - path: storage-class.yaml
+    target:
+      name: native-ha-qm
+      kind: QueueManager
+  - path: storage-class-singleinstance.yaml
+    target:
+      name: singleinstance-qm
+      kind: QueueManager
   - path: mq-cert-domain.yaml
+    target:
+      kind: QueueManager

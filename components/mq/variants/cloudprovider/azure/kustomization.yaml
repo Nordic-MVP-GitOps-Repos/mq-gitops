@@ -12,4 +12,4 @@ patches:
       kind: QueueManager
   - path: mq-cert-domain.yaml
     target:
-      kind: QueueManager
+      kind: Certificate

@@ -16,3 +16,4 @@ resources:
   # Resources for QM using a self signed cerver certificate.
 
   - qm.yaml
+  - tls/mq-server-certificate.yaml

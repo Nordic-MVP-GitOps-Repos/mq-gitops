@@ -50,7 +50,7 @@ spec:
     keys:
       - name: default
         secret:
-          secretName: mq-server-certificate-secret
+          secretName: mq-single-instance-server-certificate-secret
           items:
             - tls.key
             - tls.crt

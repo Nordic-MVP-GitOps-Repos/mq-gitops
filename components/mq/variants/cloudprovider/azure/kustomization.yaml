@@ -13,3 +13,11 @@ patches:
   - path: mq-cert-domain.yaml
     target:
       kind: Certificate
+      name: mq-server-certificate
+  - path: mq-cert-domain-si.yaml
+    target:
+      kind: Certificate
+      name: mq-single-instance-server-certificate
+
+
+      
